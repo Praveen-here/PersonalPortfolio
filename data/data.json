@@ -1,0 +1,117 @@
+{
+  "profile": {
+    "name": "Praveen",
+    "title": "Software Engineer",
+    "bio": "A passionate Software Engineer with a focus on building impactful digital solutions."
+  },
+  "contact": {
+    "email": "mailto:praveenkumard.dev@gmail.com",
+    "linkedin": "https://linkedin.com/in/praveen-kumar-d-68a169269",
+    "github": "https://github.com/praveen-here"
+  },
+  "projects": [
+    {
+      "id": 1,
+      "title": "Anonymous Confession Platform",
+      "year": "2025",
+      "type": "Site",
+      "imageUrl": "assets/images/Portfolio_image.png",
+      "description": "Made Anonymous social interaction possible and easier",
+      "toolsAndTechnologies": ["HTML", "JavaScript", "Node.js", "MongoDB", "Google's Perspective API"],
+      "githubLink": "https://github.com/Praveen-here/Anonymous-Confession-Platform",
+      "siteLink": "https://anonymous-posting-site.onrender.com/"
+    },
+    {
+      "id": 2,
+      "title": "Norban, Selling homes with a service people can love",
+
+      "year": "2025",
+      "type": "Site",
+      "imageUrl": "assets/images/onezerolabs.png",
+      "description": "Real estate platform redesign",
+      "toolsAndTechnologies": ["React", "Node.js", "MongoDB", "Figma", "SCSS"],
+      "githubLink": "https://github.com/praveenkumard/norban-platform",
+      "siteLink": "https://norban-platform.netlify.app"
+    },
+    {
+      "id": 3,
+      "title": "Designing news on Twitter",
+      "year": "2019",
+      "type": "Site",
+      "imageUrl": "assets/images/fee.png",
+      "description": "Twitter news feed redesign concept",
+      "toolsAndTechnologies": ["React", "Node.js", "MongoDB", "Figma", "SCSS"],
+      "githubLink": "https://github.com/praveenkumard/twitter-redesign",
+      "siteLink": "https://twitter-redesign.netlify.app"
+    }
+  ],
+  "skills": {
+    "programmingLanguages": [
+      "JavaScript",
+      "TypeScript",
+      "Python",
+      "Java",
+      "HTML5",
+      "CSS3",
+      "SQL",
+      "C++",
+      "Go"
+    ],
+    "frameworksAndLibraries": [
+      "React",
+      "Next.js",
+      "Vue.js",
+      "Node.js",
+      "Express.js",
+      "Django",
+      "Flask",
+      "Spring Boot",
+      "TensorFlow",
+      "D3.js",
+      "Three.js",
+      "jQuery"
+    ],
+    "cloudAndDevOps": [
+      "AWS",
+      "Azure",
+      "Google Cloud",
+      "Docker",
+      "Kubernetes",
+      "Jenkins",
+      "GitHub Actions",
+      "Terraform",
+      "Nginx",
+      "Apache"
+    ],
+    "toolsAndTechnologies": [
+      "Git",
+      "VS Code",
+      "Figma",
+      "Adobe Creative Suite",
+      "Sketch",
+      "MongoDB",
+      "PostgreSQL",
+      "Firebase",
+      "Redis",
+      "Webpack",
+      "Babel",
+      "ESLint"
+    ]
+  },
+  "experience": [
+    {
+      "company": "OnezeroLabs",
+      "role": "Software Engineer - Full Time",
+      "period": "2025 - Present",
+      "description": "Building scalable and impactful web applications and services",
+      "link": "https://onezerolabs.in"
+    },
+    {
+      "company": "Determinant Studios",
+      "role": "Software Engineer - Intern",
+      "period": "2025 Mar - 2025 Jun",
+      "description": "Worked on LLM based invoice generation tool",
+      "link": "https://determinantstudios.com"
+    }
+  ]
+}

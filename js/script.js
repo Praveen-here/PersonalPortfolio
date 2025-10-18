@@ -267,10 +267,16 @@ function createExperienceItem(experience) {
     
     const company = document.createElement('div');
     company.className = 'experience-company';
-    company.textContent = experience.company;
     
-    // Add link icon next to company name if link exists
+    // If link exists, make the company name clickable
     if (experience.link) {
+        const companyLink = document.createElement('a');
+        companyLink.href = experience.link;
+        companyLink.target = '_blank';
+        companyLink.className = 'company-name-link';
+        companyLink.textContent = experience.company;
+        company.appendChild(companyLink);
+        
         const linkIcon = document.createElement('a');
         linkIcon.href = experience.link;
         linkIcon.target = '_blank';
@@ -282,6 +288,8 @@ function createExperienceItem(experience) {
         `;
         linkIcon.title = `Visit ${experience.company}`;
         company.appendChild(linkIcon);
+    } else {
+        company.textContent = experience.company;
     }
     
     const role = document.createElement('div');

@@ -7,7 +7,8 @@
   "contact": {
     "email": "mailto:praveenkumard.dev@gmail.com",
     "linkedin": "https://linkedin.com/in/praveenkumard06",
-    "github": "https://github.com/praveen-here"
+    "github": "https://github.com/praveen-here",
+    "leetcode": "https://leetcode.com/itzzpc"
   },
   "projects": [
     {
@@ -63,25 +64,12 @@
       "Vue.js",
       "Node.js",
       "Express.js",
-      "Django",
-      "Flask",
-      "Spring Boot",
-      "TensorFlow",
-      "D3.js",
-      "Three.js",
-      "jQuery"
+      "Flask"
     ],
     "cloudAndDevOps": [
       "AWS",
-      "Azure",
-      "Google Cloud",
       "Docker",
-      "Kubernetes",
-      "Jenkins",
-      "GitHub Actions",
-      "Terraform",
-      "Nginx",
-      "Apache"
+      "Google Cloud"
     ],
     "toolsAndTechnologies": [
       "Git",

@@ -152,10 +152,12 @@ function renderPortfolio() {
         const emailLink = document.getElementById('emailLink');
         const linkedinLink = document.getElementById('linkedinLink');
         const githubLink = document.getElementById('githubLink');
+        const leetcodeLink = document.getElementById('leetcodeLink');
         
         if (emailLink) emailLink.href = portfolioData.contact.email;
         if (linkedinLink) linkedinLink.href = portfolioData.contact.linkedin;
         if (githubLink) githubLink.href = portfolioData.contact.github;
+        if (leetcodeLink) leetcodeLink.href = portfolioData.contact.leetcode;
     }
     
     // Render projects

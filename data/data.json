@@ -16,60 +16,43 @@
       "title": "Anonymous Confession Platform",
       "year": "2025",
       "type": "Site",
-      "imageUrl": "assets/images/Portfolio_image.png",
+      "imageUrl": "assets/images/anonymous-posting-site.png",
       "description": "Made Anonymous social interaction possible and easier",
-      "toolsAndTechnologies": ["HTML", "JavaScript", "Node.js", "MongoDB", "Google's Perspective API"],
+      "toolsAndTechnologies": ["Node.js", "Express.js","MongoDB", "Google's Perspective API"],
       "githubLink": "https://github.com/Praveen-here/Anonymous-Confession-Platform",
       "siteLink": "https://anonymous-posting-site.onrender.com/"
     },
     {
       "id": 2,
-      "title": "Norban, Selling homes with a service people can love",
+      "title": "Attendance and CGPA Tracker",
 
-      "year": "2025",
+      "year": "2026",
       "type": "Site",
-      "imageUrl": "assets/images/onezerolabs.png",
-      "description": "Real estate platform redesign",
-      "toolsAndTechnologies": ["React", "Node.js", "MongoDB", "Figma", "SCSS"],
-      "githubLink": "https://github.com/praveenkumard/norban-platform",
-      "siteLink": "https://norban-platform.netlify.app"
-    },
-    {
-      "id": 3,
-      "title": "Designing news on Twitter",
-      "year": "2019",
-      "type": "Site",
-      "imageUrl": "assets/images/fee.png",
-      "description": "Twitter news feed redesign concept",
-      "toolsAndTechnologies": ["React", "Node.js", "MongoDB", "Figma", "SCSS"],
-      "githubLink": "https://github.com/praveenkumard/twitter-redesign",
-      "siteLink": "https://twitter-redesign.netlify.app"
+      "imageUrl": "assets/images/pesu-tracker",
+      "description": "",
+      "toolsAndTechnologies": ["Next.js", "React","Tailwind CSS","Framer Motion","Lucide Icons","Node.js","Express","Axios","Cheerio","Redis"],
+      "githubLink": "https://github.com/Praveen-here/pesu-tracker",
+      "siteLink": "https://pesu-tracker.vercel.app"
     }
   ],
   "skills": {
     "programmingLanguages": [
-      "JavaScript",
-      "TypeScript",
       "Python",
       "Java",
-      "HTML5",
-      "CSS3",
-      "SQL",
-      "C++",
-      "Go"
+      "JavaScript",
+      "PostgreSQL",
+      "MongoDB"
     ],
     "frameworksAndLibraries": [
       "React",
       "Next.js",
-      "Vue.js",
       "Node.js",
       "Express.js",
       "Flask"
     ],
     "cloudAndDevOps": [
       "AWS",
-      "Docker",
-      "Google Cloud"
+      "Docker"
     ],
     "toolsAndTechnologies": [
       "Git",

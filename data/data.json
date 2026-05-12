@@ -44,8 +44,6 @@
     "frameworksAndLibraries": [
       "React.js",
       "Next.js",
-      "HTML",
-      "CSS",
       "Node.js",
       "Express.js",
       "Flask"

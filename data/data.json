@@ -16,7 +16,7 @@
       "title": "Anonymous Confession Platform",
       "year": "2025",
       "type": "Site",
-      "imageUrl": "assets/images/anonymous-posting-site.png",
+      "imageUrl": "assets/images/anonymous-confession-site.png",
       "description": "Made Anonymous social interaction possible and easier",
       "toolsAndTechnologies": ["Node.js", "Express.js","MongoDB", "Google's Perspective API"],
       "githubLink": "https://github.com/Praveen-here/Anonymous-Confession-Platform",
@@ -28,7 +28,7 @@
 
       "year": "2026",
       "type": "Site",
-      "imageUrl": "assets/images/pesu-tracker",
+      "imageUrl": "assets/images/pesu-tracker.png",
       "description": "",
       "toolsAndTechnologies": ["Next.js", "React","Tailwind CSS","Framer Motion","Lucide Icons","Node.js","Express","Axios","Cheerio","Redis"],
       "githubLink": "https://github.com/Praveen-here/pesu-tracker",

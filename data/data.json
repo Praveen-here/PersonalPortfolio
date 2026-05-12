@@ -39,34 +39,27 @@
     "programmingLanguages": [
       "Python",
       "Java",
-      "JavaScript",
-      "PostgreSQL",
-      "MongoDB"
+      "JavaScript"
     ],
     "frameworksAndLibraries": [
-      "React",
+      "React.js",
       "Next.js",
+      "HTML",
+      "CSS",
       "Node.js",
       "Express.js",
       "Flask"
     ],
     "cloudAndDevOps": [
       "AWS",
-      "Docker"
+      "Docker",
+      "Git"
     ],
     "toolsAndTechnologies": [
-      "Git",
-      "VS Code",
-      "Figma",
-      "Adobe Creative Suite",
-      "Sketch",
       "MongoDB",
       "PostgreSQL",
       "Firebase",
-      "Redis",
-      "Webpack",
-      "Babel",
-      "ESLint"
+      "Redis"
     ]
   },
   "experience": [

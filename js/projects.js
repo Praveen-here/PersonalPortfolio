@@ -4,8 +4,14 @@ let portfolioData = {};
 // Load portfolio data
 async function loadData() {
     try {
-        console.log('Loading data from data/data.json...');
-        const response = await fetch('data/data.json');
+        const dataUrl = 'data/data.json';
+        console.log(`Loading data from ${dataUrl}...`);
+
+        if (window.location.protocol === 'file:') {
+            throw new Error('This page is opened from the local file system. Browsers block fetch() for local JSON files. Run the site through a local web server to load the real data.');
+        }
+
+        const response = await fetch(dataUrl, { cache: 'no-store' });
         if (!response.ok) {
             throw new Error(`HTTP error! status: ${response.status}`);
         }
@@ -14,9 +20,6 @@ async function loadData() {
         renderProjectsTable();
     } catch (error) {
         console.error('Error loading data:', error);
-        // Fallback to default data
-        loadDefaultData();
-        renderProjectsTable();
     }
 }
 
@@ -102,24 +105,6 @@ function createProjectRow(project) {
     row.appendChild(linksCell);
     
     return row;
-}
-
-// Load default data as fallback
-function loadDefaultData() {
-    portfolioData = {
-        projects: [
-            {
-                id: 1,
-                title: "Sample Project",
-                category: "Web Development",
-                year: "2024",
-                description: "A sample project",
-                toolsAndTechnologies: ["HTML", "CSS", "JavaScript"],
-                githubLink: "https://github.com/sample",
-                siteLink: "https://sample.com"
-            }
-        ]
-    };
 }
 
 // Initialize when DOM is loaded

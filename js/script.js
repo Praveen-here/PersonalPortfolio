@@ -4,8 +4,14 @@ let portfolioData = {};
 // Load portfolio data
 async function loadData() {
     try {
-        console.log('Loading data from data/data.json...');
-        const response = await fetch('data/data.json');
+        const dataUrl = 'data/data.json';
+        console.log(`Loading data from ${dataUrl}...`);
+
+        if (window.location.protocol === 'file:') {
+            throw new Error('This page is opened from the local file system. Browsers block fetch() for local JSON files. Run the site through a local web server to load the real data.');
+        }
+
+        const response = await fetch(dataUrl, { cache: 'no-store' });
         if (!response.ok) {
             throw new Error(`HTTP error! status: ${response.status}`);
         }
@@ -14,9 +20,6 @@ async function loadData() {
         renderPortfolio();
     } catch (error) {
         console.error('Error loading data:', error);
-        // Fallback to default data
-        loadDefaultData();
-        renderPortfolio();
     }
 }
 
@@ -312,45 +315,6 @@ function createExperienceItem(experience) {
     item.appendChild(description);
     
     return item;
-}
-
-// Load default data as fallback
-function loadDefaultData() {
-    portfolioData = {
-        profile: {
-            name: "Praveen",
-            title: "Software Engineer",
-            bio: "A passionate Software Engineer with a focus on building impactful digital solutions."
-        },
-        contact: {
-            email: "mailto:praveenkumard.dev@gmail.com",
-            linkedin: "https://linkedin.com/in/praveen"
-        },
-        projects: [
-            {
-                id: 1,
-                title: "Sample Project",
-                category: "Web Development",
-                year: "2024",
-                type: "web",
-                description: "A sample project"
-            }
-        ],
-        skills: {
-            programmingLanguages: ["JavaScript", "Python", "HTML5", "CSS3"],
-            frameworksAndLibraries: ["React", "Node.js", "Express.js"],
-            cloudAndDevOps: ["AWS", "Docker", "Git"],
-            toolsAndTechnologies: ["VS Code", "Figma", "MongoDB"]
-        },
-        experience: [
-            {
-                company: "Sample Company",
-                role: "Software Engineer",
-                period: "2023 - Present",
-                description: "Sample experience description"
-            }
-        ]
-    };
 }
 
 // Handle navigation
